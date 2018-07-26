@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+td{
+  text-align: center;
+  font-size: 20px;}
+.footer{
+  float: left;
+  width:100%;
+  height: 200px;
+  background: #ccc;
+  margin: 10px 0px 0px 0px;
+}
+a:hover{
+  color:white;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+body{
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0px;
+}
+
+.navbar{
+  width:100%;
+  background: #AAACAB;
+  float: left;
+  display:inline;
+}
+.navbar ul li {
+  display:inline;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar ul li{
+
+  list-style-type: none;
+  padding: 0px;
+  margin: 50px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  font-size:24px;
+}
+
+</style>
+</head>
+<body bgcolor="#FFD4A7">
+
+<table>
+  <tr>
+      <td >
+        <img src="logo_img_2.png" height="100">
+      </td>
+      
+      <td width="100%"> 
+        <h1 align="center" style="font-size:50px; margin: 0px 5px 0px 0px; font-family: 'Chela One', cursive;"> SURKSHIT BHARAT </h1>
+      </td>
+      
+      <td width="250px">
+        <center> <img src="logo_img_2.png" height="100"> </center>
+      </td>
+  </tr>
+</table>
+<div class="navbar">
+  <ul>
+    <li>  <a href="index.html"> Home  </a>  </li>
+    <li>  <a href="report.php"> Case reg. </a>  </li>
+    <li>  <a href="status.html">  Status  </a>  </li>
+    <li>  <a href="sign.php">  Register  </a>  </li>
+    <li>  <a href="login2.php"> Sign in </a>  </li>
+    <li>  <a href="About.html"> About </a>  </li>
+  </ul>
+
+</div>
+
+<div class="container">
+  <div style="text-align:center"><br><br><br><br>
+    <h2>Contact Us</h2>
+    
+  </div>
+  <div class="row">
+    <div class="column">
+      <div id="map" style="width:100%;height:500px"></div>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <center><input type="submit" value="Submit"></center>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+ <table bgcolor="grey" width="100%" height="25%" >
+    <tr align="center">
+      <td colspan="4" > 
+        <img src="t2.png" width="30" height="30" style="margin-right:40;"> <img src="facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" width="30" height="30" style="margin-right:40;"> <img src="pinterest.png" width="30" height="30" style="margin-right:40;"><img src="md_5a9797d18f418.png" width="30" height="30" style="margin-right:40;"></td></tr>
+      <tr align="center" height:"10%" margin-top:"0">
+        <td width="15%"> <h3><a href="demmo.html">Contact Us</a> &emsp;&emsp;
+        
+        
+          <a href="#">FAQ</a>&emsp;&emsp;
+            <a href="terms.html">Terms & Conditions</a>&emsp;&emsp; 
+        
+            <a href="#">Queries</a>&emsp;&emsp; </h3></td>
+    </tr>
+    
+   </table>
+
+   <table bgcolor="#974b07" width="100%" height="10%">
+    <tr align="center">
+      <td>  <b><a href="mo.pdf">Rajasthan Police Rules, 2008 (English) </a> &emsp;| &emsp;<a href="mo1.pdf">Rajasthan Police Rules, 2008 (Hindi) </a>&emsp;  |&emsp;  <a href="mo2.pdf"> Rajasthan Police Subordinate Service Rules 1989</a></b></td></tr>
+   </table>
+
+
+<script>
+
+function myMap() {
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+</body>
+</html>

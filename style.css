@@ -1,0 +1,59 @@
+body{
+	margin:0;
+}
+
+.navbar{
+	width:100%;
+	height: 5%;
+	background: #333;
+}
+
+.header_text{
+	font-size: 24px;
+	font-weight: 800px;
+	color: #e68a00;
+}
+.left_panel{
+	float: left;
+	width: 20%;
+	height: 400px;
+	background: #ccc; 
+}
+.CM_photo{
+	margin: 20px 0px 0px 20px;
+	
+}
+
+.HM_photo{
+	margin: 20px 0px 0px 400px;
+}
+.CM_text h2{
+	font-size: 20px;
+	position:absolute;
+	margin: 0px 100px 0px 300px;
+}
+.HM_text h2{
+	font-size: 20px;
+	margin: 0px 100px 0px 890px;
+}
+.right_panel{
+	float: right;
+	width: 20%;
+	height: 400px;
+	background: #ccc; 
+}
+.submit_button{
+	border-radius: 5px;
+	margin: 180px 0px 0px 250px;
+	font-size: 40px;
+	cursor:pointer;
+	background: #1ab2ff;
+}
+
+.footer{
+	float: left;
+	width:100%;
+	height: 200px;
+	background: #ccc;
+	margin: 10px 0px 0px 0px;
+}
